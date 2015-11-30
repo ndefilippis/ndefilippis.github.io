@@ -103,12 +103,19 @@
 	list-style-type: none;
 	display: inline-block;
 }
-.ctf-card{
-	div{
-		min-height: 300px;
-		background-size: cover;
-		background-position: bottom;
-		background-color: rgba(0.8, 0.8, 0.8, 0.6);
+.card{
+	min-height: 300px;
+	position: relative;
+	background-size: cover;
+	background-position: bottom;
+	background-color: rgba(0.8, 0.8, 0.8, 0.6);
+	
+	.caption{
+		position: absolute;
+		width: 100%;
+		left: 0;
+		bottom: 0;
+		background-color: rgba(200, 150, 100, 0.65);
 	}
 }
 
