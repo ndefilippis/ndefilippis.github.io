@@ -1,7 +1,12 @@
 $(document).ready(function(){
-  $("card").hover(function(){
-    $("caption").animate({
-      width: '+=150px'
+  $(".card").mouseenter(function(){
+    $(this).find(".caption:first").animate({
+      height: '+=150px'
+    });
+  });
+  $(".card").mouseleave(function(){
+    $(this).find(".caption:first").animate({
+      height: '-=150px'
     });
   });
 });
