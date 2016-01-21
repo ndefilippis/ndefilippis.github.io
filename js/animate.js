@@ -3,12 +3,13 @@ $(document).ready(function(){
     $(this).find(".caption:first").animate({
       height: '+=150px'
     });
-    $(this).find(".info").css("display: inline-block");
+    $(this).find(".info:first").css("display", "inline-block");
   });
   $(".card").mouseleave(function(){
     $(this).find(".caption:first").animate({
       height: '-=150px'
+    }, function(){
+      $(this).find(".info:first").css("display", "none");
     });
-    $(this).find(".info").css("display: none");
   });
 });
