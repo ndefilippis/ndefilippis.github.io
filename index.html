@@ -5,9 +5,6 @@ layout: default
 <div class="home">
   {% for section in site.sections %}
 	<div class="site-section">
-		<h2>
-			{{section.title}}
-		</h2>
 		{{ section.content | mardownify}}
 	</div>
   {% endfor %}

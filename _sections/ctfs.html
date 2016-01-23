@@ -5,8 +5,10 @@ title: CTFs
 
 
 
-I participate in various online computer security competitions (CTFs), and I think I'm pretty good ;)
-<div class = "ctf">
+
+<div class = "ctf wrapper">
+	<h2>{{title}}</h2>
+	I participate in various online computer security competitions (CTFs), and I think I'm pretty good ;)
 	<ul style="text-align:center;">
 	{% assign ctfs = site.cards | where: "type", "ctf" %}
 	{% for ctf in ctfs %}

@@ -5,8 +5,10 @@ title: Projects
 
 
 
-Here are some things I've made
-<div class = "projects">
+
+<div class = "projects wrapper">
+	<h2>{{title}}</h2>
+	Here are some things I've made
 	<ul style="text-align:center;">
 	{%assign projects = site.cards | where: "type", "project" %}
 	{% for project in projects %}
