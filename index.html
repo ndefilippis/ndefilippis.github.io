@@ -3,11 +3,8 @@ layout: default
 ---
 
 <div class="home">
-  {% for section in site.sections %}
-	<div class="site-section">
-		{{ section.content | mardownify}}
-	</div>
-  {% endfor %}
+
+  {%include section.html%}
 
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>

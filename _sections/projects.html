@@ -1,16 +1,9 @@
 ---
 layout: section
 title: Projects
+description: Here are some things I've made
 ---
 
-
-
-<div class = "banner banner-project">
-<h2>{{page.title}}</h2>
-Here are some things I've made
-</div>
-
-<div class = "projects wrapper">
 	<ul style="text-align:center;">
 	{%assign projects = site.cards | where: "type", "project" %}
 	{% for project in projects %}
@@ -25,6 +18,3 @@ Here are some things I've made
 	</li>
 	{%endfor%}
 	</ul>
-</div>
-
-</div>
