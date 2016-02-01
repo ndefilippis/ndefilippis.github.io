@@ -108,7 +108,7 @@
 	position: relative;
 	background-size: cover;
 	background-position: bottom;
-	background-color: rgba(60, 60, 60, 1);
+	background-color: rgba(160, 160, 160, 1);
 
 	.caption{
 		position: absolute;
@@ -118,11 +118,11 @@
 		background-color: rgba(200, 200, 200, 0.65);
 
     .caption-title{
-			color: rgba(0.8, 0.8, 0.8, 1.0);
+			color: rgba(0, 0, 0, 1.0);
       background-color: rgba(200, 200, 200, 1.0);
 
 			&:hover{
-				color: rgba(0.5, 0.5, 0.5, 0.65);
+				color: rgba(0, 0, 0, 0.65);
 			}
 		}
     .info{
@@ -147,7 +147,7 @@
   margin-top: 30px;
   margin-bottom: 30px;
   width: 400px;
-  background-color: rgba(0.5, 0.5, 0.5, 0.7);
+  background-color: rgba(16, 16, 16, 0.7);
   border-radius: 20px;
   position: relative;
   opacity: 1.0;
@@ -167,9 +167,27 @@
     font-size: 2em;
   }
 }
+.banner-background{
+  background-image: url("../img/background.png");
+  position: absolute;
+  width: 100%;
+  height: 80px;
+  opacity: 0.5;
+}
 .banner{
+  min-height: 80px;
   text-align: center;
-  background-color: #b19cd9
+  background-color: rgba(50, 225, 50, 0.7);
+  position: relative;
+}
+.banner-About{
+  background-color: rgba(50, 225, 50, 0.7);
+}
+.banner-CTFs{
+  background-color: rgba(225, 225, 50, 0.7);
+}
+.banner-Projects{
+  background-color: rgba(50, 50, 225, 0.7);
 }
 
 /** End Custom CSS **/
