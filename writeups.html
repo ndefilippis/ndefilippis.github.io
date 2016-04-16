@@ -3,17 +3,16 @@ layout: page
 title: CTF Write-Ups
 ---
 
-
-{% for post in site._posts %}
+{% for post in site.posts %}
 <div class="site-section">
   <div class = "banner-background"></div>
   <div class = "banner banner-{{section.title}}">
-    <h2>{{section.title}}</h2>
-    <p>{{section.description}}</p>
+    <h3>{{post.title}}</h3>
+    <p>{{post.description}}</p>
   </div>
   <div class="page-content">
      <div class="wrapper">
-      {{ section.content }}
+      {{ post.content | markdownify}}
     </div>
   </div>
 </div>

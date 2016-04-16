@@ -1,14 +1,16 @@
 ---
 layout: post
-title: NeoCTF - You Spin Me Right Round Baby Write-Up (500)
-date: 3-18-2016
+title: "NeoCTF - You Spin Me Right Round Baby Write-Up (500)"
+date: 2016-3-18
 author: Nick DeFilippis
 ---
 Problem
 ===
-Josh McCown is lost. Can you help him find his way again? https://dl.dropboxusercontent.com/u/12992225/helicopter.gif
+Josh McCown is lost. Can you help him find his way again? [https://dl.dropboxusercontent.com/u/12992225/helicopter.gif](https://dl.dropboxusercontent.com/u/12992225/helicopter.gif)
 
-tl;dr
+![gif](../img/helicopter.gif)
+
+*tl;dr*
 ===
 Repeated ROT13-Base64
 
